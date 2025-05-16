@@ -1,0 +1,144 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #000;
+    padding: 20px;
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .fb-btn {
+    width: 90%;
+    padding: 10px;
+    height: 36px;
+    background-color: #2293fd;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+  .fb-btn img{
+    width: 100%;
+    margin-top: -8px;
+  }
+  .divider {
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #555;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .divider span {
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
+  .login-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 6px 0;
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .password-box {
+    position: relative;
+  }
+  
+  .show-btn {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+  }
+  
+  .forgot {
+    display: block;
+    font-size: 0.85rem;
+    color:#0095f6 ;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 160px;
+  }
+  
+  .login-btn {
+    width: 88%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .signup a {
+    color: #0095f6;
+    text-decoration: none;
+  }
+  
+  .terms {
+    font-size: 0.75rem;
+    color: #777;
+    margin-top: 50px;
+  }
+  
+  .terms a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .meta{
+    width: 60px;
+    margin-top: 100px;
+  }
+  .insta{
+    border-radius: 40px;
+  }
